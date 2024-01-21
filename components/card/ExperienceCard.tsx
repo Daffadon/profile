@@ -1,3 +1,4 @@
+import { ExperienceCardProps } from "@/data/dto/mainProps";
 import React, { FC } from "react";
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
@@ -8,12 +9,12 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
           <span className="font-semibold">{experience.title}</span> -{" "}
           <span className="text-xs">{experience.place}</span>
         </p>
-        <p className="text-xs">
+        <p className="text-xs bg-blue-smoky text-white font-semibold px-2 py-1 rounded-md">
           {experience.date}{" "}
           {`${experience.until ? `- ${experience.until}` : ""}`}
         </p>
       </div>
-      <p className="text-blue-deep font-semibold">{experience.role}</p>
+      <p className="text-blue-deep font-bold mb-1">{experience.role}</p>
       <ul>
         {experience.description.map((desc, index) => {
           return (

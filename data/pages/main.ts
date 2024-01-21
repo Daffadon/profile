@@ -166,6 +166,6 @@ export const educationData = [
     title: "Bachelor Of Computer Science",
     gpa: "3.88/4.0",
     graduatedYear: "2025",
-    color: "blue-deep",
+    color: "blueDeep",
   },
 ];
