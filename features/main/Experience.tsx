@@ -1,6 +1,6 @@
 "use client";
-import ExperienceCard from "@/components/ExperienceCard";
-import { experiencesData } from "@/data/experience";
+import ExperienceCard from "@/components/card/ExperienceCard";
+import { experiencesData } from "@/data/pages/main";
 import { useState } from "react";
 const Experience = () => {
   const [readMore, setReadMore] = useState<boolean>(false);
@@ -26,8 +26,8 @@ const Experience = () => {
         <div
           className={` ${
             readMore
-              ? "-bottom-10 bg-black py-2 mt-2"
-              : "absolute bottom-0 backdrop-blur-md py-2"
+              ? "-bottom-10 bg-blue-clear py-2 mt-2 font-bold hover:"
+              : "absolute bottom-0 bg-blue-clear py-2"
           } w-full text-center z-0 rounded-t-lg cursor-pointer text-sm font-bold duration-700`}
         >
           {readMore ? (
@@ -41,6 +41,7 @@ const Experience = () => {
             </p>
           ) : (
             <p
+              className="text-white"
               onClick={() => {
                 setReadMore(true);
               }}

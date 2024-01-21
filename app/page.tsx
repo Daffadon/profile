@@ -2,6 +2,7 @@ import About from "@/features/main/About";
 import Biography from "@/features/main/Biography";
 import Education from "@/features/main/Education";
 import Experience from "@/features/main/Experience";
+import Licenses from "@/features/main/Licenses";
 import Project from "@/features/main/Project";
 import TechStack from "@/features/main/TechStack";
 
@@ -25,6 +26,10 @@ export default function Home() {
 
         <div className="mt-3"></div>
         <Project />
+
+        <div className="mt-3"></div>
+        <Licenses />
+
         <div className="mb-3"></div>
       </div>
     </div>

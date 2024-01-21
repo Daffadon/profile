@@ -1,3 +1,28 @@
+import { BsLinkedin } from "react-icons/bs";
+import { VscGithub } from "react-icons/vsc";
+import { BsTwitterX } from "react-icons/bs";
+import { MdOutlineMailOutline } from "react-icons/md";
+import ub from "@/asset/ub_logo.png";
+
+export const socialMedia = [
+  {
+    link: "https://www.linkedin.com/in/daffadon/",
+    icon: BsLinkedin,
+  },
+  {
+    link: "https://github.com/Daffadon",
+    icon: VscGithub,
+  },
+  {
+    link: "https://twitter.com/daffadon_",
+    icon: BsTwitterX,
+  },
+  {
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=daffaputranarendra9@gmail.com",
+    icon: MdOutlineMailOutline,
+  },
+];
+
 export const experiencesData = [
   {
     title: "Indonesia Research and Education Network (IDREN)",
@@ -101,7 +126,7 @@ export const experiencesData = [
     title: "Gemastik XV",
     image: "",
     place: "Malang, Indonesia",
-    date: "November 2023",
+    date: "November 2022",
     until: "",
     role: "IT Support",
     description: [
@@ -131,5 +156,16 @@ export const experiencesData = [
     description: [
       "I became the chief executive for Training of Trainer (ToT), which is an event to train the Informatics Education and Learning for Society Enhancement (IF-ELSE) committee so that they are ready to carry out their duties properly",
     ],
+  },
+];
+
+export const educationData = [
+  {
+    name: "Brawijaya University",
+    logo: ub,
+    title: "Bachelor Of Computer Science",
+    gpa: "3.88/4.0",
+    graduatedYear: "2025",
+    color: "blue-deep",
   },
 ];
