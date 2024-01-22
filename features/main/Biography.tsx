@@ -31,7 +31,7 @@ const Biography = () => {
         src={profile_pict}
         alt="Profile Picture"
         className="absolute h-40 w-40 right-0"
-        loading="lazy"
+        priority
       />
     </div>
   );

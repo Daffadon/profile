@@ -1,7 +1,6 @@
 import { EducationCardProps } from "@/data/dto/mainProps";
 import Image from "next/image";
 import { FC } from "react";
-
 const EducationCard: FC<EducationCardProps> = ({ education }) => {
   const hoverColorVariants: Record<string, string> = {
     blueDeep: "hover:bg-blue-deep",
