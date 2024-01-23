@@ -3,7 +3,7 @@ import React, { FC } from "react";
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
   return (
-    <div className="border-[1.5px] py-3 px-4 border-black rounded-lg text-sm hover:scale-[99%] duration-300 z-10">
+    <div className="border-[1.5px] py-3 px-4 border-black rounded-lg text-sm hover:scale-[99%] duration-300 z-10 cursor-default">
       <div className="flex justify-between">
         <p>
           <span className="font-semibold">{experience.title}</span> -{" "}

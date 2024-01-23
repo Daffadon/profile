@@ -12,21 +12,22 @@ interface TechCardProps {
 
 const TechCard: FC<TechCardProps> = ({ tech }) => {
   const hoverColorVariants: Record<string, string> = {
-    blueDeep: "hover:bg-blue-deep",
-    orangeHtml: "hover:bg-orange-html",
-    blueCss: "hover:bg-blue-css",
-    yellowJs: "hover:bg-yellow-js",
-    blueTs: "hover:bg-blue-ts",
-    blueReact: "hover:bg-blue-react",
-    purpleVite: "hover:bg-purple-vite",
-    blueTailwind: "hover:bg-blue-tailwind",
-    blueMui: "hover:bg-blue-mui",
-    purpleAxios: "hover:bg-purple-axios",
-    blueMysql: "hover:bg-blue-mysql",
-    brownMariaDb: "hover:bg-brown-mariadb",
-    orangeGit: "hover:bg-orange-git",
-    blueDocker: "hover:bg-blue-docker",
+    blueDeep: " text-blue-deep hover:bg-blue-deep",
+    orangeHtml: "text-orange-html hover:bg-orange-html",
+    blueCss: "hover:bg-blue-css text-blue-css",
+    yellowJs: "hover:bg-yellow-js text-yellow-js",
+    blueTs: "hover:bg-blue-ts text-blue-ts",
+    blueReact: "hover:bg-blue-react text-blue-react",
+    purpleVite: "hover:bg-purple-vite text-purple-vite",
+    blueTailwind: "hover:bg-blue-tailwind text-blue-tailwind",
+    blueMui: "hover:bg-blue-mui text-blue-mui",
+    purpleAxios: "hover:bg-purple-axios text-purple-axios",
+    blueMysql: "hover:bg-blue-mysql text-blue-mysql",
+    brownMariaDb: "hover:bg-brown-mariadb text-brown-mariadb",
+    orangeGit: "hover:bg-orange-git text-orange-git",
+    blueDocker: "hover:bg-blue-docker text-blue-docker",
     black: "hover:bg-black",
+    pinkLaravel: "hover:bg-pink-laravel text-pink-laravel",
   };
 
   return (

@@ -32,6 +32,7 @@ const config: Config = {
         "brown-mariadb": "#C0765A",
         "orange-git": "#F54D27",
         "blue-docker": "#1D63ED",
+        "pink-laravel": "#F05340",
       },
     },
   },

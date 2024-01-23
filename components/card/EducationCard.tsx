@@ -8,7 +8,7 @@ const EducationCard: FC<EducationCardProps> = ({ education }) => {
 
   return (
     <div
-      className={`grid place-items-center border-[1.5px] border-black px-4 py-6 rounded-lg min-h-72 duration-200 hover:scale-[99%] hover:text-white hover:border-white 
+      className={`grid place-items-center border-[1.5px] border-black px-4 py-6 rounded-lg min-h-72 duration-200 hover:scale-[99%] hover:text-white hover:border-white cursor-default 
       ${hoverColorVariants[education.color]}`}
     >
       <h2 className="font-bold">{education.name}</h2>

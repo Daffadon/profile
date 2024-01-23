@@ -1,3 +1,4 @@
+import Footer from "@/components/appbar/Footer";
 import About from "@/features/main/About";
 import Biography from "@/features/main/Biography";
 import Education from "@/features/main/Education";
@@ -9,7 +10,7 @@ import TechStack from "@/features/main/TechStack";
 export default function Home() {
   return (
     <div className="grid place-items-center">
-      <div className="w-7/12">
+      <div className="w-7/12 cursor-default">
         <div className="mt-8"></div>
         <Biography />
         <div className="mt-3"></div>
@@ -31,6 +32,7 @@ export default function Home() {
         <Licenses />
 
         <div className="mb-3"></div>
+        <Footer />
       </div>
     </div>
   );

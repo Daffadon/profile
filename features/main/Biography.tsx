@@ -1,6 +1,6 @@
 import { CiLocationOn } from "react-icons/ci";
 import Link from "next/link";
-import { socialMedia } from "@/data/pages/main";
+import { socialMedia } from "@/data/pages/main/section/biography";
 import Image from "next/image";
 import profile_pict from "@/asset/profile_pict.svg";
 const Biography = () => {

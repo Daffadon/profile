@@ -1,5 +1,5 @@
 import EducationCard from "@/components/card/EducationCard";
-import { educationData } from "@/data/pages/main";
+import { educationData } from "@/data/pages/main/section/education";
 const Education = () => {
   return (
     <>

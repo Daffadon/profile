@@ -1,6 +1,6 @@
 "use client";
 import ExperienceCard from "@/components/card/ExperienceCard";
-import { experiencesData } from "@/data/pages/main";
+import { experiencesData } from "@/data/pages/main/section/experience";
 import { useState } from "react";
 const Experience = () => {
   const [readMore, setReadMore] = useState<boolean>(false);
@@ -10,9 +10,7 @@ const Experience = () => {
       <div className="w-36 h-[1.5px] bg-black"></div>
       <div
         className={`${
-          readMore
-            ? "overflow-visible min-h-screen"
-            : "overflow-hidden h-screen"
+          readMore ? "overflow-visible h-full" : "overflow-hidden h-[47.5vh]"
         } relative`}
       >
         {experiencesData.map((experience, index) => {
@@ -25,10 +23,8 @@ const Experience = () => {
         })}
         <div
           className={` ${
-            readMore
-              ? "-bottom-10 bg-blue-clear mt-2"
-              : "absolute bottom-0 bg-blue-clear"
-          } w-full text-center z-0 rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black font-bold duration-300`}
+            readMore ? "-bottom-10 mt-2" : "absolute bottom-0 "
+          } w-full text-center z-0 rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black bg-blue-deep font-bold duration-300`}
         >
           {readMore ? (
             <p
