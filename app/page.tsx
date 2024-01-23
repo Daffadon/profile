@@ -10,7 +10,7 @@ import TechStack from "@/features/main/TechStack";
 export default function Home() {
   return (
     <div className="grid place-items-center">
-      <div className="w-7/12 cursor-default">
+      <div className="lg:w-8/12 md:w-10/12 w-11/12 cursor-default">
         <div className="mt-8"></div>
         <Biography />
         <div className="mt-3"></div>
@@ -27,9 +27,6 @@ export default function Home() {
 
         <div className="mt-3"></div>
         <Project />
-
-        <div className="mt-3"></div>
-        <Licenses />
 
         <div className="mb-3"></div>
         <Footer />

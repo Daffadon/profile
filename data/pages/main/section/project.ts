@@ -51,7 +51,7 @@ export const projectData = [
     tech: "Next + TypeScript",
     color: "blueTs",
     description:
-      "todolist is an app that let you write down your todo. The list that have been checked by done would appears in the second section so you can check history. The app built by next with typescript and tailwindCSS in styling.",
+      "todolist is an app that let you write down your todo. The list that have been checked by done would appears in the second section so you can check history. The app built by Next with TypeScript and TailwindCSS in styling.",
   },
   {
     title: "HC",

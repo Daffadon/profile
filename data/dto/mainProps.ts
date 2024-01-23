@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { IconType } from "react-icons";
 
 export interface ExperienceCardProps {
   experience: {
@@ -20,5 +21,24 @@ export interface EducationCardProps {
     gpa: string;
     graduatedYear: string;
     color: string;
+  };
+}
+
+export interface ProjectCardProps {
+  project: {
+    title: string;
+    role: string;
+    github: string;
+    tech: string;
+    color: string;
+    description: string;
+  };
+}
+export interface TechCardProps {
+  tech: {
+    name: string;
+    logo: IconType;
+    color: string;
+    link: string;
   };
 }

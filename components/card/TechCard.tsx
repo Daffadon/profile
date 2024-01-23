@@ -1,14 +1,6 @@
 import Link from "next/link";
 import { FC } from "react";
-import { IconType } from "react-icons";
-interface TechCardProps {
-  tech: {
-    name: string;
-    logo: IconType;
-    color: string;
-    link: string;
-  };
-}
+import { TechCardProps } from "@/data/dto/mainProps";
 
 const TechCard: FC<TechCardProps> = ({ tech }) => {
   const hoverColorVariants: Record<string, string> = {
@@ -38,8 +30,8 @@ const TechCard: FC<TechCardProps> = ({ tech }) => {
         hoverColorVariants[tech.color]
       } border w-full min-h-32 grid place-items-center py-2 bg-me hover:text-white transition-all duration-200 hover:scale-105 rounded-md border-black hover:border-white`}
     >
-      <tech.logo size={40} className="mt-3" />
-      <p className="text-sm font-bold">{tech.name}</p>
+      <tech.logo className="mt-3 h-9 w-9" />
+      <p className="md:text-sm text-xs font-bold">{tech.name}</p>
     </Link>
   );
 };
