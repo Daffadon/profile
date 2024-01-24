@@ -12,7 +12,13 @@ const EducationCard: FC<EducationCardProps> = ({ education }) => {
       ${hoverColorVariants[education.color]}`}
     >
       <h2 className="font-bold">{education.name}</h2>
-      <Image src={education.logo} alt="UB" className="h-14 w-14 mt-2" />
+      <Image
+        src={education.logo}
+        alt={education.name}
+        width={"100"}
+        height={"100"}
+        className="h-14 w-14 mt-2"
+      />
       <p className="font-bold text-sm">Title:</p>
       <p className="font-bold -mt-2">{education.title}</p>
       <p className="font-bold">GPA: {education.gpa}</p>
