@@ -33,6 +33,8 @@ const Biography = () => {
         src={profile_pict}
         alt="Profile Picture"
         className="absolute h-40 w-40 right-0 hidden md:block"
+        width={"40"}
+        height={"40"}
         priority
       />
     </div>

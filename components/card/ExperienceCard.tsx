@@ -1,5 +1,5 @@
 import { ExperienceCardProps } from "@/data/dto/mainProps";
-import React, { FC } from "react";
+import { FC } from "react";
 
 const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
   return (
