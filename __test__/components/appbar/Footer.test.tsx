@@ -4,6 +4,6 @@ import { expect, test } from "vitest";
 
 test("Footer Section", () => {
   render(<Footer />);
-  const footer = screen.getByText(/Copyright/);
+  const footer = screen.getByText(`Copyright ${new Date().getFullYear()}`);
   expect(footer).toBeDefined();
 });
