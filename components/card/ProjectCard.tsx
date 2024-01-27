@@ -30,7 +30,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
           <p
             className={`${
               colorVariants[project.color]
-            } text-white text-xs px-2 rounded-full py-[0.5px] my-2`}
+            } text-white text-xs px-3 rounded-full py-1 my-2`}
           >
             {project.tech}
           </p>
