@@ -3,9 +3,14 @@ import Link from "next/link";
 import { socialMedia } from "@/data/pages/main/section/biography";
 import Image from "next/image";
 import profile_pict from "@/asset/profile_pict.svg";
+import Navbar from "@/components/appbar/Navbar";
+
+
 const Biography = () => {
+
   return (
     <div className="md:text-center flex flex-col justify-center items-center relative py-2">
+      <Navbar />
       <h1 className=" text-base md:text-xl font-semibold">
         Daffa Putra Narendra
       </h1>
