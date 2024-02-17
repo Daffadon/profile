@@ -12,7 +12,7 @@ const Article = async () => {
 
   return (
     <div className="grid place-items-center">
-      <div className="lg:w-9/12 md:w-10/12 w-11/12 cursor-default">
+      <div className="lg:w-8/12 md:w-10/12 w-11/12 cursor-default">
         <div className="mt-8"></div>
         <Biography />
         <div className="min-h-[60vh] mt-5 mb-3">
