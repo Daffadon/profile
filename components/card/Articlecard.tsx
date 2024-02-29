@@ -21,7 +21,7 @@ const Articlecard: FC<ArticleCardProps> = ({
   const day = date.toUTCString();
   return (
     <Link href={link} target="_blank">
-      <div className="w-full border border-black px-3 py-2 rounded hover:scale-[99%] duration-300 max-h-[20vh] sm:max-h-[20vh] lg:min-h-[20vh] lg:max-h-[25vh]">
+      <div className="w-full border border-black px-3 py-2 rounded hover:scale-[99%] duration-300 max-h-[20vh] sm:max-h-[24vh] lg:min-h-[20vh] lg:max-h-[25vh]">
         <h2 className="font-bold">{title}</h2>
         <p className="mb-3">{day}</p>
         <div className="flex flex-wrap gap-1">
