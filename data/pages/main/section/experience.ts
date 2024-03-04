@@ -23,6 +23,7 @@ export const experiencesData = [
     description: [
       "Teach students of Basic Networking class about the basic of computer network, OSI Layer, TCP/IP, and routing",
     ],
+    favorite: true,
   },
   {
     title: "Information Centric Networking Laboratory",

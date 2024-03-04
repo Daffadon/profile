@@ -30,7 +30,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
         })}
       </ul>
       {experience.favorite && (
-        <FaStar className="text-2xl absolute right-1 bottom-1 text-yellow-js" />
+        <FaStar className="text-2xl absolute -right-1 -top-1 text-yellow-js" />
       )}
     </div>
   );
