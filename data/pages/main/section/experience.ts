@@ -10,6 +10,7 @@ export const experiencesData = [
       "IDREN is made for research and education network purposes which connect universities around Indonesia and other RENs around the world",
       "My role is make a simulation for the topology that would applied in IDREN and explore about the Mikrotik configuration to become a module for tutorial",
     ],
+    favorite: true,
   },
   {
     title: "Information Centric Networking Laboratory",
@@ -24,6 +25,7 @@ export const experiencesData = [
       "Construct module for cyber security dissemination",
       "Join the team for scaling up IDREN, Indonesia Research and Education Network",
     ],
+    favorite: true,
   },
   {
     title: "Basic Computing Community (BCC)",
@@ -38,6 +40,19 @@ export const experiencesData = [
     ],
   },
   {
+    title: "APIE Camp 2024",
+    image: "",
+    place: "Penang, Malaysia",
+    date: "Febryary 2024",
+    until: "March 2024",
+    role: "Participant",
+    description: [
+      "APIE program is a program that help university students and young people in the Asia Pacific region looking to improve their employability potential and build the network engineering and operation skills needed to meet the global demand for Internet engineers in industry and academia, including research and education networks (REN).",
+      "As one of the participants, i and my friends as a group learn how to deploy the internet, virtualization using proxmox in the server, DNS setup, cloud with AWS, and basic knowlodge of network security",
+    ],
+    favorite: true,
+  },
+  {
     title: "Evidence Based Approach (EBA) Hokkaido Fieldwork 2023",
     image: "",
     place: "Tokyo/Hokkaido, Japan",
@@ -49,6 +64,7 @@ export const experiencesData = [
       "I’m participating in the Hokkaido Fieldwork that has a focus on environment, diversity, and other field issues.",
       "The result is my perspective and my solution for the similar issue in Indonesia reflected what I got from Hokkaido indigenous people, Ainu.",
     ],
+    favorite: true,
   },
   {
     title: "Gemastik XVI",
