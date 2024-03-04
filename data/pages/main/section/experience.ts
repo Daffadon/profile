@@ -40,15 +40,15 @@ export const experiencesData = [
     ],
   },
   {
-    title: "APIE Camp 2024",
+    title: "Asia Pasific Internet Engineer (APIE) Program",
     image: "",
     place: "Penang, Malaysia",
-    date: "Febryary 2024",
+    date: "September 2023",
     until: "March 2024",
     role: "Participant",
     description: [
       "APIE program is a program that help university students and young people in the Asia Pacific region looking to improve their employability potential and build the network engineering and operation skills needed to meet the global demand for Internet engineers in industry and academia, including research and education networks (REN).",
-      "As one of the participants, i and my friends as a group learn how to deploy the internet, virtualization using proxmox in the server, DNS setup, cloud with AWS, and basic knowlodge of network security",
+      "As one of the participants, i and my friends as a group learn how to deploy the internet, virtualization using Proxmox in the server, DNS setup, cloud with AWS, and basic knowledge of network security",
     ],
     favorite: true,
   },
