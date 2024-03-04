@@ -10,6 +10,7 @@ export interface ExperienceCardProps {
     until: string;
     role: string;
     description: string[];
+    favorite?: boolean;
   };
 }
 
