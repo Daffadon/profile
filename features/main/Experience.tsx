@@ -24,7 +24,7 @@ const Experience = () => {
         <div
           className={` ${
             readMore ? "-bottom-10 mt-2" : "absolute bottom-0 "
-          } w-full text-center z-0 rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black bg-blue-deep font-bold duration-300`}
+          } w-full text-center rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black bg-blue-deep font-bold duration-300 z-20`}
         >
           {readMore ? (
             <p
