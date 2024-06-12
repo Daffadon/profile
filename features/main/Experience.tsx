@@ -9,9 +9,8 @@ const Experience = () => {
       <h3 className="text-sm font-medium">Experience</h3>
       <div className="w-36 h-[1.5px] bg-black"></div>
       <div
-        className={`${
-          readMore ? "overflow-visible h-full" : "overflow-hidden h-[47.5vh]"
-        } relative`}
+        className={`${readMore ? "overflow-visible h-full" : "overflow-hidden h-[47.5vh]"
+          } relative`}
       >
         {experiencesData.map((experience, index) => {
           return (
@@ -22,15 +21,15 @@ const Experience = () => {
           );
         })}
         <div
-          className={` ${
-            readMore ? "-bottom-10 mt-2" : "absolute bottom-0 "
-          } w-full text-center rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black bg-blue-deep font-bold duration-300 z-20`}
+          className={` ${readMore ? "-bottom-10 mt-2" : "absolute bottom-0 "
+            } w-full text-center rounded-t-lg cursor-pointer py-2 text-sm hover:bg-black bg-blue-deep font-bold duration-300 z-20`}
         >
           {readMore ? (
             <p
               className="text-white"
               onClick={() => {
                 setReadMore(false);
+                window.scrollTo({ top: 0, behavior: "smooth" })
               }}
             >
               See Less

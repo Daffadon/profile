@@ -9,6 +9,15 @@ export const projectData = [
       "A project which tell people around the world about BCC and the products which community create for the clients with Software House. I’m doing the 1 of 2 pages front end, which is project pages using Next.js framework with Typescript and completed with MUI and tailwindCSS for the styling. The project is also deployed in Vercel.",
   },
   {
+    title: "RempahRasa",
+    role: "Back End Developer",
+    github: "https://github.com/RempahRasa/RempahRasaBE",
+    tech: "ExpressJS",
+    color: "black",
+    description:
+      "The app will be designed to identify the spices instantly through image recognition technology. By simply taking photos, users can receive information about the spice, its uses and history. It also gives recipes recommendations based on the photo. I take a role as backend developer and create 5 endpoint API using Express.js utilize model from machine learning and deployed in Cloud Run (GCP)",
+  },
+  {
     title: "CareerFund",
     role: "Front End Developer",
     github: "https://github.com/Daffadon/career-fund",

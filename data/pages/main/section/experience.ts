@@ -40,6 +40,17 @@ export const experiencesData = [
     ],
   },
   {
+    title: "Faculty of Computer Science, Brawijaya University",
+    image: "",
+    place: "Malang, Indonesia",
+    date: "March 2024",
+    until: "June 2024",
+    role: "Teaching Asisstant of Information Security",
+    description: [
+      "Teach 40 students of Information Security class about the basic of information security, cryptography, and network security",
+    ],
+  },
+  {
     title: "Asia Pasific Internet Engineer (APIE) Program",
     image: "",
     place: "Penang, Malaysia",

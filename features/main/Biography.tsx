@@ -14,8 +14,8 @@ const Biography = () => {
       <h1 className=" text-base md:text-xl font-semibold">
         Daffa Putra Narendra
       </h1>
-      <h2 className="text-sm mt-1 text-center">
-        Front End Developer, Network Enthusiast, I Use Arch btw.
+      <h2 className="text-sm mt-1 text-center w-2/3 md:w-1/2 lg:w-3/5">
+        Front End Developer, Network Enthusiast, Bangkit Academy 2024 H1 Cloud Computing Cohort, I Use Arch btw.
       </h2>
       <Link
         href={"https://maps.app.goo.gl/Zsg6B6Gn1MsKg2TaA"}

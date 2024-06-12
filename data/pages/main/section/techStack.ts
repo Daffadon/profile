@@ -14,7 +14,7 @@ import {
   SiJest,
   SiGit,
   SiDocker,
-  SiLaravel,
+  SiGooglecloud,
 } from "react-icons/si";
 
 export const techStacks = [
@@ -59,12 +59,6 @@ export const techStacks = [
     logo: SiNextdotjs,
     color: "black",
     link: "https://nextjs.org/",
-  },
-  {
-    name: "Laravel",
-    logo: SiLaravel,
-    color: "pinkLaravel",
-    link: "https://laravel.com/",
   },
   {
     name: "ExpressJS",
@@ -131,5 +125,11 @@ export const techStacks = [
     logo: SiDocker,
     color: "blueDocker",
     link: "https://www.docker.com/",
+  },
+  {
+    name: "GCP",
+    logo: SiGooglecloud,
+    color: "blueDocker",
+    link: "https://cloud.google.com/",
   },
 ];
