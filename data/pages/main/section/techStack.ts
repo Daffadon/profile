@@ -15,6 +15,7 @@ import {
   SiGit,
   SiDocker,
   SiGooglecloud,
+  SiFirebase,
 } from "react-icons/si";
 
 export const techStacks = [
@@ -131,5 +132,11 @@ export const techStacks = [
     logo: SiGooglecloud,
     color: "blueDocker",
     link: "https://cloud.google.com/",
+  },
+  {
+    name: "Firestore",
+    logo: SiFirebase,
+    color: "yellowFirebase",
+    link: "https://cloud.google.com/firestore?hl=en",
   },
 ];

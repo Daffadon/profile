@@ -22,4 +22,5 @@ export const hoverColorVariants: Record<string, string> = {
   orangeGit: "hover:bg-orange-git",
   blueDocker: "hover:bg-blue-docker",
   black: "hover:bg-black",
+  yellowFirebase: "bg-orange-firebase",
 };

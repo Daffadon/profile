@@ -33,6 +33,7 @@ const config: Config = {
         "orange-git": "#F54D27",
         "blue-docker": "#1D63ED",
         "pink-laravel": "#F05340",
+        "orange-firebase": "#FFA611",
       },
     },
   },

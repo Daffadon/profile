@@ -20,15 +20,15 @@ const TechCard: FC<TechCardProps> = ({ tech }) => {
     blueDocker: "hover:bg-blue-docker text-blue-docker",
     black: "hover:bg-black",
     pinkLaravel: "hover:bg-pink-laravel text-pink-laravel",
+    yellowFirebase: "hover:bg-orange-firebase text-yellow-firebase",
   };
 
   return (
     <Link
       href={tech.link}
       target="_blank"
-      className={`${
-        hoverColorVariants[tech.color]
-      } border w-full min-h-32 grid place-items-center py-2 bg-me hover:text-white transition-all duration-200 hover:scale-105 rounded-md border-black hover:border-white`}
+      className={`${hoverColorVariants[tech.color]
+        } border w-full min-h-32 grid place-items-center py-2 bg-me hover:text-white transition-all duration-200 hover:scale-105 rounded-md border-black hover:border-white`}
     >
       <tech.logo className="mt-3 h-9 w-9" />
       <p className="md:text-sm text-xs font-bold">{tech.name}</p>
