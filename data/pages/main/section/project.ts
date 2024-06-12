@@ -12,7 +12,7 @@ export const projectData = [
     title: "RempahRasa",
     role: "Back End Developer",
     github: "https://github.com/RempahRasa/RempahRasaBE",
-    tech: "ExpressJS",
+    tech: "ExpressJS + Typescript",
     color: "black",
     description:
       "The app will be designed to identify the spices instantly through image recognition technology. By simply taking photos, users can receive information about the spice, its uses and history. It also gives recipes recommendations based on the photo. I take a role as backend developer and create 5 endpoint API using Express.js utilize model from machine learning and deployed in Cloud Run (GCP)",
