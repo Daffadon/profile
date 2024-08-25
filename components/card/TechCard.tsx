@@ -21,6 +21,8 @@ const TechCard: FC<TechCardProps> = ({ tech }) => {
     black: "hover:bg-black",
     pinkLaravel: "hover:bg-pink-laravel text-pink-laravel",
     yellowFirebase: "hover:bg-orange-firebase text-yellow-firebase",
+    blueGo: "hover:bg-blue-go text-blue-go",      
+    greenMongo: "hover:bg-green-mongo text-green-mongo",
   };
 
   return (

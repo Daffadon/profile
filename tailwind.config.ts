@@ -34,6 +34,8 @@ const config: Config = {
         "blue-docker": "#1D63ED",
         "pink-laravel": "#F05340",
         "orange-firebase": "#FFA611",
+        "blue-go": "#29BEB0",
+        "green-mongo": "#4DB33D",
       },
     },
   },

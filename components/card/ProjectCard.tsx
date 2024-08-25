@@ -21,6 +21,9 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
     blueDocker: "bg-blue-docker",
     black: "bg-black",
     pinkLaravel: "bg-pink-laravel",
+    yellowFirebase: "bg-orange-firebase",
+    blueGo: "bg-blue-go",
+    greenMongo: "bg-green-mongo",
   };
   return (
     <div className="w-full border border-black rounded-sm px-3 h-full py-2 pt-3 hover:scale-[99%] duration-300 cursor-default">
@@ -28,9 +31,8 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
         <div className="flex items-center md:gap-2 flex-col md:flex-row">
           <p className="font-bold">{project.title}</p>
           <p
-            className={`${
-              colorVariants[project.color]
-            } text-white text-xs px-3 rounded-full py-1 my-2`}
+            className={`${colorVariants[project.color]
+              } text-white text-xs px-3 rounded-full py-1 my-2`}
           >
             {project.tech}
           </p>
