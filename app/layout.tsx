@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Daffa Putra Narendra",
@@ -17,7 +20,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={plusJakarta.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }
