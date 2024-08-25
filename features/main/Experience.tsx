@@ -6,7 +6,7 @@ const Experience = () => {
   const [readMore, setReadMore] = useState<boolean>(false);
   return (
     <>
-      <h3 className="text-sm font-medium">Experience</h3>
+      <h3 className="text-xl font-medium">Experience</h3>
       <div className="w-36 h-[1.5px] bg-black"></div>
       <div
         className={`${readMore ? "overflow-visible h-full" : "overflow-hidden h-[47.5vh]"
