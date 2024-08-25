@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    title: "Heart Rate Monitor App",
+    role: "Back End Developer",
+    github: "",
+    tech: "Golang",
+    color: "blueGo",
+    description:
+      "(Currently Private) A backend application that handle the data from the ECG sensor device and process it to the database. The app built using Golang as the framework and deployed in VPS using docker. Other than consist of 21 endpoints, the app is also using mongoDB as the database and combine http and websocket for the communication",
+  },
+  {
     title: "BCC Company Profile",
     role: "Front End Developer",
     github: "https://bccfilkom.net/",

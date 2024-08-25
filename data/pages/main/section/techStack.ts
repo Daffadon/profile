@@ -16,7 +16,10 @@ import {
   SiDocker,
   SiGooglecloud,
   SiFirebase,
+  SiGin,
+  SiMongodb,
 } from "react-icons/si";
+import { BiLogoGoLang } from "react-icons/bi";
 
 export const techStacks = [
   {
@@ -50,6 +53,12 @@ export const techStacks = [
     link: "https://www.typescriptlang.org/",
   },
   {
+    name: "Golang",
+    logo: BiLogoGoLang,
+    color: "blueGo",
+    link: "https://go.dev/",
+  },
+  {
     name: "ReactJS",
     logo: FaReact,
     color: "blueReact",
@@ -66,6 +75,12 @@ export const techStacks = [
     logo: SiExpress,
     color: "black",
     link: "https://expressjs.com/",
+  },
+  {
+    name: "Gin",
+    logo: SiGin,
+    color: "blueGo",
+    link: "https://gin-gonic.com/",
   },
   {
     name: "Vite",
@@ -98,10 +113,22 @@ export const techStacks = [
     link: "https://www.prisma.io/",
   },
   {
+    name: "MongoDB",
+    logo: SiMongodb,
+    color: "greenMongo",
+    link: "https://www.mongodb.com/",
+  },
+  {
     name: "MySQL",
     logo: SiMysql,
     color: "blueMysql",
     link: "https://www.mysql.com/",
+  },
+  {
+    name: "Firestore",
+    logo: SiFirebase,
+    color: "yellowFirebase",
+    link: "https://cloud.google.com/firestore?hl=en",
   },
   {
     name: "MariaDB",
@@ -132,11 +159,5 @@ export const techStacks = [
     logo: SiGooglecloud,
     color: "blueDocker",
     link: "https://cloud.google.com/",
-  },
-  {
-    name: "Firestore",
-    logo: SiFirebase,
-    color: "yellowFirebase",
-    link: "https://cloud.google.com/firestore?hl=en",
   },
 ];

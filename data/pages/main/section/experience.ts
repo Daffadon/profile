@@ -1,16 +1,28 @@
 export const experiencesData = [
   {
-    title: "Indonesia Research and Education Network (IDREN)",
+    title: "SOI Asia Project",
     image: "",
     place: "Malang, Indonesia",
-    date: "December 2023",
+    date: "August 2024",
     until: "Present",
-    role: "Networking Explorer",
+    role: "APIE Teaching Assistant",
     description: [
-      "IDREN is made for research and education network purposes which connect universities around Indonesia and other RENs around the world",
-      "My role is make a simulation for the topology that would applied in IDREN and explore about the Mikrotik configuration to become a module for tutorial",
+      "As a teaching assistant, i have a responsibility to lead a discussion through meeting with the students from 9 countries in Asia Pacific region",
+      "Facilitating the students on APIE Online course through FutureLearn platform",
+      "Supporting the students by communication via slack",
     ],
     favorite: true,
+  },
+  {
+    title: "Faculty of Computer Science, Brawijaya University",
+    image: "",
+    place: "Malang, Indonesia",
+    date: "August 2024",
+    until: "Present",
+    role: "Teaching Asisstant of Basic Networking",
+    description: [
+      "Teach students of Basic Networking class about the basic of computer network, OSI Layer, TCP/IP, and routing",
+    ],
   },
   {
     title: "Information Centric Networking Laboratory",
@@ -40,6 +52,20 @@ export const experiencesData = [
     ],
   },
   {
+    title: "Bangkit Academy 2024 Batch 1",
+    image: "",
+    place: "Bandung, Indonesia",
+    date: "February 2024",
+    until: "July 2024",
+    role: "Cloud Computing Cohort",
+    description: [
+      "Bangkit is a Google-led academy program for university graduates to learn digital skills and to prepare for a career in technology",
+      "As A cloud computing cohort, I learnt about cloud computing, cloud storage, cloud database, IAM, cloud network, and backend service",
+      'At the end of the program, i and my team creaeted a project called "Rempah Rasa" which is a mobile application that can identify the spices instantly through image recognition technology',
+      "I and my friend developing backend service which consist of 13 endpoints API using Express.js and deployed in Google Cloud Run (GCP) connected to Google Cloud Storage and Firestore",
+    ],
+  },
+  {
     title: "Faculty of Computer Science, Brawijaya University",
     image: "",
     place: "Malang, Indonesia",
@@ -60,6 +86,19 @@ export const experiencesData = [
     description: [
       "APIE program is a program that help university students and young people in the Asia Pacific region looking to improve their employability potential and build the network engineering and operation skills needed to meet the global demand for Internet engineers in industry and academia, including research and education networks (REN).",
       "As one of the participants, i and my friends as a group learn how to deploy the internet, virtualization using Proxmox in the server, DNS setup, cloud with AWS, and basic knowledge of network security",
+    ],
+    favorite: true,
+  },
+  {
+    title: "Indonesia Research and Education Network (IDREN)",
+    image: "",
+    place: "Malang, Indonesia",
+    date: "December 2023",
+    until: "Present",
+    role: "Networking Explorer",
+    description: [
+      "IDREN is made for research and education network purposes which connect universities around Indonesia and other RENs around the world",
+      "My role is make a simulation for the topology that would applied in IDREN and explore about the Mikrotik configuration to become a module for tutorial",
     ],
     favorite: true,
   },
