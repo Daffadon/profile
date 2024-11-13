@@ -1,17 +1,35 @@
 export const projectData = [
   {
+    title: "ICN FILKOM UB",
+    role: "Front End Developer",
+    link: "https://icn-filkom.ub.ac.id/",
+    tech: "Next + Typescript",
+    color: "blueTs",
+    description:
+      "ICN Filkom UB is a website that provide information about Information Centric Networking Laboratory in Brawijaya University. I take a role as front end developer and build the website using Next.js with Typescript and deployed in our on-premise server. Using TailwindCSS for the styling and frammer motion for the animation. ",
+  },
+  {
+    title: "Heart Rate Monitor App (prototype)",
+    role: "Front End Developer",
+    link: "https://github.com/Daffadon/IoTHR-frontend",
+    tech: "ReactJS + Typescript",
+    color: "blueTs",
+    description:
+      "Built with ReactJS and Typescript, Application not also visualize beautifully, but also have a feature to show the real time data from the ECG sensor device. The app also have a feature to show the history of the data. After the recording, the data will be analyzed using AI with >95% accuracy and stored in the database. Styled with TailwindCSS and can be deployed in on-premise.",
+  },
+  {
     title: "Heart Rate Monitor App",
     role: "Back End Developer",
-    github: "",
+    link: "https://github.com/Daffadon/IoTHR-backend/",
     tech: "Golang",
     color: "blueGo",
     description:
-      "(Currently Private) A backend application that handle the data from the ECG sensor device and process it to the database. The app built using Golang as the framework and deployed in VPS using docker. Other than consist of 21 endpoints, the app is also using mongoDB as the database and combine http and websocket for the communication",
+      "A backend application that handle the data from the ECG sensor device and process it to the database. The app built using Golang as the framework and deployed in VPS using docker. Other than consist of 21 endpoints, the app is also using mongoDB as the database and combine http and websocket for the communication",
   },
   {
     title: "BCC Company Profile",
     role: "Front End Developer",
-    github: "https://bccfilkom.net/",
+    link: "https://bcc.filkom.ub.ac.id/",
     tech: "Next + TypeScript",
     color: "blueTs",
     description:
@@ -20,7 +38,7 @@ export const projectData = [
   {
     title: "RempahRasa",
     role: "Back End Developer",
-    github: "https://github.com/RempahRasa/RempahRasaBE",
+    link: "https://github.com/RempahRasa/RempahRasaBE",
     tech: "ExpressJS + Typescript",
     color: "black",
     description:
@@ -29,7 +47,7 @@ export const projectData = [
   {
     title: "CareerFund",
     role: "Front End Developer",
-    github: "https://github.com/Daffadon/career-fund",
+    link: "https://github.com/Daffadon/career-fund",
     tech: "ReactJS",
     color: "blueReact",
     description:
@@ -38,7 +56,7 @@ export const projectData = [
   {
     title: "KostTower",
     role: "Full Stack Developer",
-    github: "https://github.com/Daffadon/KostTower",
+    link: "https://github.com/Daffadon/KostTower",
     tech: "Laravel",
     color: "pinkLaravel",
     description:
@@ -47,7 +65,7 @@ export const projectData = [
   {
     title: "Geez",
     role: "Back End Developer",
-    github: "https://github.com/Kelompok-PSI/Geez-backend",
+    link: "https://github.com/Kelompok-PSI/Geez-backend",
     tech: "ExpressJS",
     color: "black",
     description:
@@ -56,7 +74,7 @@ export const projectData = [
   {
     title: "Kagoben",
     role: "Back End Developer",
-    github: "https://github.com/Kagoben-org/kagoben-backend",
+    link: "https://github.com/Kagoben-org/kagoben-backend",
     tech: "ExpressJS",
     color: "black",
     description:
@@ -65,7 +83,7 @@ export const projectData = [
   {
     title: "todolist",
     role: "Front End Developer",
-    github: "https://github.com/Daffadon/todolist",
+    link: "https://github.com/Daffadon/todolist",
     tech: "Next + TypeScript",
     color: "blueTs",
     description:
@@ -74,8 +92,7 @@ export const projectData = [
   {
     title: "HC",
     role: "Front End Developer",
-    github:
-      "https://github.com/Daffadon/Freepass-FE-2023/tree/DaffaPutraNarendra",
+    link: "https://github.com/Daffadon/Freepass-FE-2023/tree/DaffaPutraNarendra",
     tech: "ReactJS",
     color: "blueReact",
     description:

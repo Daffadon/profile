@@ -1,19 +1,5 @@
 export const experiencesData = [
   {
-    title: "SOI Asia Project",
-    image: "",
-    place: "Malang, Indonesia",
-    date: "August 2024",
-    until: "Present",
-    role: "APIE Teaching Assistant",
-    description: [
-      "As a teaching assistant, i have a responsibility to lead a discussion through meeting with the students from 9 countries in Asia Pacific region",
-      "Facilitating the students on APIE Online course through FutureLearn platform",
-      "Supporting the students by communication via slack",
-    ],
-    favorite: true,
-  },
-  {
     title: "Faculty of Computer Science, Brawijaya University",
     image: "",
     place: "Malang, Indonesia",
@@ -23,22 +9,6 @@ export const experiencesData = [
     description: [
       "Teach students of Basic Networking class about the basic of computer network, OSI Layer, TCP/IP, and routing",
     ],
-    favorite: true,
-  },
-  {
-    title: "Information Centric Networking Laboratory",
-    image: "",
-    place: "Malang, Indonesia",
-    date: "August 2023",
-    until: "Present",
-    role: "Head of Laboratory Member",
-    description: [
-      "Head of 27 members which divided by their own interest, such as network, cyber security, IoT, and infrastructure",
-      "Learn new knowledge such as containerization, back end, routing in network, and ECG Sensor device",
-      "Construct module for cyber security dissemination",
-      "Join the team for scaling up IDREN, Indonesia Research and Education Network",
-    ],
-    favorite: true,
   },
   {
     title: "Basic Computing Community (BCC)",
@@ -51,6 +21,36 @@ export const experiencesData = [
       "Improving day by day through scheduled workshops and self paced learning, I learn new technologies such as state management for React.js, Next.js, TypeScript and other tech stack for Front End Development",
       "Becomes representative for event called Developing Your Network and Skill with Innovative Computing (DYNAMIC) UB 2023 as Front End Workshop speaker",
     ],
+    favorite: true,
+  },
+  {
+    title: "SOI Asia Project",
+    image: "",
+    place: "Malang, Indonesia",
+    date: "August 2024",
+    until: "November 2024",
+    role: "APIE Teaching Assistant",
+    description: [
+      "As a teaching assistant, i have a responsibility to lead a discussion through meeting with the students from 9 countries in Asia Pacific region",
+      "Facilitating the students on APIE Online course through FutureLearn platform",
+      "Supporting the students by communication via slack",
+    ],
+    favorite: true,
+  },
+  {
+    title: "Information Centric Networking Laboratory",
+    image: "",
+    place: "Malang, Indonesia",
+    date: "August 2023",
+    until: "August 2024",
+    role: "Head of Laboratory Member",
+    description: [
+      "Head of 27 members which divided by their own interest, such as network, cyber security, IoT, and infrastructure",
+      "Learn new knowledge such as containerization, back end, routing in network, and ECG Sensor device",
+      "Construct module for cyber security dissemination",
+      "Join the team for scaling up IDREN, Indonesia Research and Education Network",
+    ],
+    favorite: true,
   },
   {
     title: "Bangkit Academy 2024 Batch 1",
