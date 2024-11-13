@@ -29,7 +29,7 @@ export interface ProjectCardProps {
   project: {
     title: string;
     role: string;
-    github: string;
+    link: string;
     tech: string;
     color: string;
     description: string;

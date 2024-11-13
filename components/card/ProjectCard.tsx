@@ -37,7 +37,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
             {project.tech}
           </p>
         </div>
-        <Link href={project.github} target="_blank" className="md:mr-3">
+        <Link href={project.link} target="_blank" className="md:mr-3">
           <IoMdLink size={20} />
         </Link>
       </div>
