@@ -15,12 +15,12 @@ const Biography = () => {
         Daffa Putra Narendra
       </h1>
       <h2 className="text-lg mt-1 text-center w-2/3 md:w-1/2 lg:w-3/5">
-        Fullstack Developer | SOI Asia Project Intern | Network & Cloud Enthusiast | CS Student
+        Associate Cloud Engineer Certified | Full stack Developer | Network & Cloud Enthusiasts | Computer Science Student
       </h2>
       <Link
         href={"https://maps.app.goo.gl/Zsg6B6Gn1MsKg2TaA"}
         target="_blank"
-        className="flex items-center my-2 gap-1 -ml-1 md:ml-0"
+        className="flex items-center my-2 gap-1 -ml-1 md:ml-0 hover:text-blue-deep"
       >
         <CiLocationOn size={25} />
         <p className="text-sm pr-1">Malang, Indonesia</p>
