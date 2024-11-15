@@ -28,11 +28,11 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="w-full border border-black rounded-sm px-3 h-full py-2 pt-3 hover:scale-[99%] duration-300 cursor-default">
       <div className="flex items-center justify-center flex-col">
-        <div className="flex items-center md:gap-2 flex-col md:flex-row">
-          <p className="font-bold">{project.title}</p>
+        <div className="flex items-center lg:gap-2 flex-col lg:flex-row">
+          <p className="font-bold text-center">{project.title}</p>
           <p
             className={`${colorVariants[project.color]
-              } text-white text-xs px-3 rounded-full py-1 my-2`}
+              } text-white text-xs px-3 rounded-full max-w-max py-1 my-2`}
           >
             {project.tech}
           </p>
